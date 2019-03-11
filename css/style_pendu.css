@@ -1,0 +1,137 @@
+#mot{
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: white;
+}
+#clavier span{
+	background-color: #dddddd;
+	padding: 1px 5px;
+	margin: 3px;
+	cursor: pointer;
+	text-transform: uppercase;
+	line-height: 25px;
+	font-size: 20px;
+	border-radius: 5px;
+}
+#clavier span:hover{
+	background-color: #cccccc;
+}
+#bravo {
+    background-color: #EEEEEE;
+    margin: 20px auto;
+    padding: 10px;
+    width: 280px;
+	/* min-height: 60px; */
+	border-radius: 4px;
+}
+#bravo a {
+	display: inline-block;
+	background-color: #777777;
+	color: #ffffff;
+	padding: 3px 8px;
+	text-decoration: none;
+	margin: 5px;
+}
+#bravo a:hover{
+	background-color: #333333;
+}
+#pendu{
+	width: 300px;
+	height: 400px;
+	margin: auto;
+	position: relative;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+#pendu div{
+	display: none;
+}
+#p1{
+	background-color: white;
+	height: 2px;
+	width: 200px;
+	position: absolute;
+	top: 350px;
+	left: 50px;
+}
+#p2{
+	background-color: white;
+	height: 300px;
+	width: 2px;
+	position: absolute;
+	top: 50px;
+	left: 70px;
+}
+#p3{
+	background-color: white;
+	height: 2px;
+	width: 100px;
+	position: absolute;
+	top: 50px;
+	left: 70px;
+}
+#p4{
+	background-color: white;
+	height: 80px;
+	width: 2px;
+	position: absolute;
+	top: 40px;
+	left: 98px;
+	transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+}
+#p5{
+	background-color: white;
+	height: 60px;
+	width: 2px;
+	position: absolute;
+	top: 50px;
+	left: 170px;
+}
+#p6{
+	border:2px solid white;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	position: absolute;
+	top: 110px;
+	left: 140px;
+}
+#p7{
+	background-color: white;
+	height: 100px;
+	width: 2px;
+	position: absolute;
+	top: 172px;
+	left: 170px;
+}
+#p8{
+    background-color: white;
+    height: 2px;
+    left: 141px;
+    position: absolute;
+    top: 205px;
+    width: 60px;
+}
+#p9 {
+    background-color: white;
+    height: 45px;
+    left: 154px;
+    position: absolute;
+    top: 265px;
+    transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+    width: 2px;
+}
+#p10 {
+    background-color: white;
+    height: 45px;
+    left: 186px;
+    position: absolute;
+    top: 265px;
+    transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+    width: 2px;
+}
